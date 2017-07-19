@@ -28,7 +28,6 @@ class Numbers {
     result
   }
 
-
   def toShortWord2(int:String):String={
     val arr = int.reverse.split("(?<=\\G...)")
     val result = (for(i<-0 until arr.length)yield {
